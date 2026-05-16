@@ -1,0 +1,44 @@
+seed: 42
+output_dir: ./outputs/sequential_lora
+trace_root: ./TRACE
+model_name: Qwen/Qwen2.5-3B-Instruct
+use_fast_tokenizer: false
+padding_side: left
+max_length: 1024
+per_device_batch_size: 2
+grad_accum_steps: 4
+num_epochs: 3
+learning_rate: 0.0002
+weight_decay: 0.0
+warmup_ratio: 0.03
+max_grad_norm: 1.0
+bf16: true
+compile_model: false
+log_every: 10
+eval_every_epoch: false
+save_every_task: true
+method: sequential_lora
+rank: 16
+alpha: 32
+dropout: 0.0
+debug_eval: false
+target_modules:
+- q_proj
+- k_proj
+- v_proj
+- o_proj
+- gate_proj
+- up_proj
+- down_proj
+train_tasks:
+- C-STANCE
+- FOMC
+- ScienceQA
+- NumGLUE-cm
+- NumGLUE-ds
+eval_tasks:
+- C-STANCE
+- FOMC
+- ScienceQA
+- NumGLUE-cm
+- NumGLUE-ds
