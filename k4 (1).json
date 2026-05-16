@@ -1,0 +1,62 @@
+[
+  {
+    "task_id": 1,
+    "task_name": "C-STANCE",
+    "seen_scores": {
+      "C-STANCE": 0.6
+    },
+    "average_accuracy": 0.6,
+    "bwt": 0.0,
+    "fwt": 0.0
+  },
+  {
+    "task_id": 2,
+    "task_name": "FOMC",
+    "seen_scores": {
+      "C-STANCE": 0.44,
+      "FOMC": 0.71
+    },
+    "average_accuracy": 0.575,
+    "bwt": -0.15999999999999998,
+    "fwt": 0.0
+  },
+  {
+    "task_id": 3,
+    "task_name": "ScienceQA",
+    "seen_scores": {
+      "C-STANCE": 0.57,
+      "FOMC": 0.68,
+      "ScienceQA": 0.82
+    },
+    "average_accuracy": 0.69,
+    "bwt": -0.02999999999999997,
+    "fwt": 0.0
+  },
+  {
+    "task_id": 4,
+    "task_name": "NumGLUE-cm",
+    "seen_scores": {
+      "C-STANCE": 0.59,
+      "FOMC": 0.71,
+      "ScienceQA": 0.86,
+      "NumGLUE-cm": 0.5802469135802469
+    },
+    "average_accuracy": 0.6850617283950616,
+    "bwt": 0.010000000000000009,
+    "fwt": 0.0
+  },
+  {
+    "task_id": 5,
+    "task_name": "NumGLUE-ds",
+    "seen_scores": {
+      "C-STANCE": 0.57,
+      "FOMC": 0.71,
+      "ScienceQA": 0.7,
+      "NumGLUE-cm": 0.5308641975308642,
+      "NumGLUE-ds": 0.58
+    },
+    "average_accuracy": 0.6181728395061727,
+    "bwt": -0.049845679012345684,
+    "fwt": 0.0
+  }
+]
