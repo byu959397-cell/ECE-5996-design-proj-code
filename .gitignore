@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+.venv/
+.env
+
+# Datasets
+TRACE/
+TRACE_fast/
+
+# Large training outputs
+outputs/
+checkpoints/
+*.pt
+*.bin
+*.safetensors
+
+# Optional logs
+wandb/
+logs/
+debug_predictions/
+
+# System files
+.DS_Store
