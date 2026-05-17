@@ -1,4 +1,4 @@
-# OrthoHist-LoRA: Continual Learning for Small Language Models
+# TGR (OrthoHist-LoRA:) Continual Learning for Small Language Models
 
 This repository contains a continual learning pipeline for parameter-efficient supervised fine-tuning of small instruction-tuned language models. The project compares a standard Sequential LoRA baseline with an OrthoHist-LoRA method that stores previous task updates in a frozen historical basis pool and learns a task-conditioned low-rank historical reuse operator.
 
